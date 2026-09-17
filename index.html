@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="여지혜 AI/Data 포트폴리오 - 데이터 전처리, 머신러닝과 딥러닝 모델링, 추천 시스템, Speech AI/NLP, Bioinformatics 프로젝트"
+    />
+    <title>여지혜 | AI/Data Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__inner">
+        <a class="brand" href="#top">여지혜</a>
+        <div class="nav__links">
+          <a href="#profile">Profile</a>
+          <a href="#projects">Projects</a>
+          <a href="#awards">Awards</a>
+          <a href="#vision">Strengths</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="top" class="page">
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="hero__photo">
+          <img src="./profile.jpg" alt="여지혜 프로필 사진" />
+        </div>
+        <div class="hero__copy">
+          <p class="hero__tag">PORTFOLIO / 2026</p>
+          <h1 id="intro-title" class="hero__name">
+            여지혜 <span>Yeo Ji Hye</span>
+          </h1>
+          <p class="hero__title">
+            데이터를 모델과 서비스로 연결하는 AI / Data Developer입니다.
+          </p>
+          <p class="hero__bio">
+            최근에는 기업 외주 프로젝트인 DEEP RUNNERS 교육 플랫폼에서 Java와 Spring Boot로 LXP 백엔드를 개발하고, 운영 배포를 준비하며 PostgreSQL 백업과 migration 절차를 검증하고 있습니다. 그전에는 Python으로 바이오, 음성, 금융 데이터 등을 다루며 모델을 학습하고 비교했습니다. 맡았던 일을 최신 경험부터 아래에 정리했습니다.
+          </p>
+          <div class="contact">
+            <a href="https://github.com/danchu000" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="profile" class="section" aria-labelledby="profile-title">
+        <h2 id="profile-title">Profile</h2>
+        <div class="profile-grid">
+          <article class="profile-block">
+            <h3>학력사항</h3>
+            <ul class="profile-list">
+              <li>
+                <div class="profile-list__head">
+                  <strong>성신여자대학교 AI융합학부</strong>
+                  <time>2024 — 현재</time>
+                </div>
+                <p>머신러닝과 딥러닝, 데이터 분석을 공부하고 있습니다. 수업에서 배운 내용을 프로젝트에 직접 써 보면서 익히고 있습니다.</p>
+              </li>
+              <li>
+                <div class="profile-list__head">
+                  <strong>바이오생명공학과 복수전공</strong>
+                  <time>2025-2 — 현재</time>
+                </div>
+                <p>생명과학을 함께 공부하며 유전자 발현 데이터 분석처럼 바이오 분야에 AI를 적용하는 방법을 익히고 있습니다.</p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="profile-block">
+            <h3>기술 역량</h3>
+            <ul class="cert-list">
+              <li>
+                <strong>Programming</strong>
+                <span>Python, Java, SQL, C++</span>
+              </li>
+              <li>
+                <strong>AI / ML</strong>
+                <span>PyTorch, scikit-learn, XGBoost, Hugging Face Transformers, FAISS, MediaPipe</span>
+              </li>
+              <li>
+                <strong>Backend / Data</strong>
+                <span>Spring Boot, Spring Data JPA, FastAPI, PostgreSQL, Pandas, NumPy</span>
+              </li>
+              <li>
+                <strong>LLM / Tools</strong>
+                <span>OpenAI API, Ollama, Git/GitHub, WSL2, Figma</span>
+              </li>
+            </ul>
+
+            <h3 class="profile-block__sub">자격증</h3>
+            <ul class="cert-list">
+              <li>
+                <strong>AICE</strong>
+                <span>Associate 등급 취득</span>
+              </li>
+              <li>
+                <strong>ADsP</strong>
+                <span>데이터분석 준전문가 취득</span>
+              </li>
+              <li>
+                <strong>SQLD</strong>
+                <span>SQL 개발자 취득</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects">
+          <article class="project">
+            <div class="project__hero">
+              <p class="project__lead">학습 데이터 조회와 출결, 기업 조직진단까지 다룬 교육 플랫폼 개발</p>
+              <h3 class="project__name">
+                DEEP RUNNERS 교육 플랫폼
+                <span class="project__ctx">기업 외주 프로젝트</span>
+              </h3>
+              <p class="project__sub">기존 초안과 기본 화면 구조가 있던 교육 플랫폼에 합류해 LXP 백엔드와 수강생 화면, Bizworkcraft 기능을 확장하고 PostgreSQL staging 환경에서 운영 배포 준비와 검증까지 진행했습니다.</p>
+            </div>
+
+            <dl class="project__meta">
+              <div><dt>기간</dt><dd>2026.07 - 2026.10 (진행중)</dd></div>
+              <div><dt>역할</dt><dd>LXP 백엔드 중심으로 수강생 화면, B2B 홈페이지 Bizworkcraft, AI 기능 확장</dd></div>
+              <div class="full"><dt>기술</dt><dd>Java, Spring Boot, Spring MVC, Spring Data JPA, Thymeleaf, PostgreSQL 16, JavaScript, OpenAI API, Gradle, WSL2</dd></div>
+            </dl>
+
+            <div class="project__implementation">
+              <h4>주요 구현</h4>
+              <ul>
+                <li>수강 중인 모든 과정의 학습 정보를 사용자별로 모아 보여 주는 LXP Summary API 구현</li>
+                <li>강사와 수강생이 담당하거나 수강하지 않은 과정에 접근하지 못하도록 권한 검증을 넣고, 시험 채점은 최신 제출 회차만 처리하도록 수정</li>
+                <li>LOGIN-LOGOUT 로그로 차시별 인정 체류시간을 계산해 출결을 판정하고 관리자용 Excel 내보내기 구현</li>
+                <li>학습일지에서 상담, 후속조치로 이어지는 학습 케어 기능에 담당자 권한과 변경 이력 기록 추가</li>
+                <li>기존 Course 도메인을 활용해 공개 정보와 내부 운영 정보를 분리하고, 비회원 신청과 상담 접수를 관리자 처리 흐름에 연결</li>
+                <li>Mental Care Assistant PoC에서 OpenAI API 호출 코드를 별도 계층으로 분리하고, 위기 표현을 먼저 검사하며 대화 원문은 저장하지 않도록 구현</li>
+                <li>PostgreSQL 마이그레이션 SQL과 검증 SQL을 작성하고, staging에서 schema 확인과 백업, 복원, migration 절차를 검증. PostgreSQL에서만 나던 read-only transaction 오류도 격리된 DB에서 재현해 수정</li>
+                <li>수강생 화면은 학습 판정 로직과 화면용 상태를 분리해 구성하고, Bizworkcraft는 조직진단 결과를 개선 우선순위와 DMAIC 단계별 안내, 상담 신청으로 연결</li>
+              </ul>
+            </div>
+
+            <div class="project__split">
+              <div>
+                <h4>Problem</h4>
+                <ul>
+                  <li>진도와 출석, 과제, 시험 정보가 기능마다 나뉘어 있어 학습 상태를 한눈에 보기 어려웠습니다.</li>
+                  <li>공개 신청과 AI 기능을 추가하면서 기존 교육 데이터 구조와 개인정보 보호 기준을 지켜야 했습니다.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Solution</h4>
+                <ul>
+                  <li>기존 코드를 먼저 읽고 어디까지 만들어져 있는지 확인한 뒤, 빠져 있던 집계와 권한 처리를 채웠습니다.</li>
+                  <li>기존 Course 도메인은 그대로 두고, 공개 접수 데이터와 외부 AI 호출 코드를 따로 분리했습니다.</li>
+                  <li>기능을 추가한 뒤에는 기존 화면과 기능을 다시 확인하면서 권한 누락과 데이터가 어긋나는 부분을 찾아 고쳤습니다.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project__impact">
+              <h4>Impact</h4>
+              <ul>
+                <li>수강생의 학습상태 조회부터 상담 신청, 관리자 처리까지 한 서비스 안에서 이어지도록 만들었습니다.</li>
+                <li>운영 DB에 반영하기 전에 staging에서 백업, 복원, migration 순서를 먼저 확인하도록 배포 절차를 정리했습니다.</li>
+              </ul>
+              <a class="project__link" href="https://github.com/min03027/samsung_axi_2nd" target="_blank" rel="noreferrer">GitHub (초기 LXP/CMS)</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__hero">
+              <p class="project__lead">PwC 사내 동아리 AI 실습 교육 보조 활동</p>
+              <h3 class="project__name">
+                PwC 사내 동아리 OPUS
+                <span class="project__ctx">AI 실습 교육 보조 조교</span>
+              </h3>
+              <p class="project__sub">PwC 사내 동아리에서 여러 주제로 진행하는 AI 실습</p>
+            </div>
+
+            <dl class="project__meta">
+              <div><dt>기간</dt><dd>2026.06.13 - 진행중</dd></div>
+              <div><dt>역할</dt><dd>AI 실습 교육 보조 조교</dd></div>
+              <div class="full"><dt>활동</dt><dd>AI 실습 교육 진행 보조</dd></div>
+            </dl>
+
+            <div class="project__implementation">
+              <h4>주요 활동</h4>
+              <ul>
+                <li>매 회차 AI 실습 수업 진행 보조</li>
+                <li>참여자가 막힌 부분을 함께 확인하고 실습을 따라올 수 있게 지원</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__hero">
+              <p class="project__lead">문제 생성부터 중복 제거와 교사 검수까지 연결한 LLM 업무 자동화 시스템</p>
+              <h3 class="project__name">
+                국어학원 LLM 기반 문제 제작 및 검수 자동화
+                <span class="project__ctx">1인 개발</span>
+              </h3>
+            </div>
+
+            <dl class="project__meta">
+              <div><dt>팀</dt><dd>1인</dd></div>
+              <div><dt>역할</dt><dd>기획, 서비스 구조와 DB 설계, LLM 문제 생성 과정, 교사 검수 기능 개발</dd></div>
+              <div class="full"><dt>기술</dt><dd>OpenAI API, FastAPI, PostgreSQL, pgvector, Next.js, React, TypeScript</dd></div>
+            </dl>
+
+            <div class="project__implementation">
+              <h4>주요 구현</h4>
+              <ul>
+                <li>기존 문제를 문항, 유형, 정답, 해설, 출제 의도, 난이도로 분석해 OpenAI API Structured Output 형식으로 정의</li>
+                <li>작품을 등록하면 작품과 카테고리, 문항 수에 맞춰 후보 문제를 생성하는 과정 구현</li>
+                <li>문자열 정규화, 임베딩 유사도, 출제 포인트 비교, LLM 판정 순서로 중복 문제 제거</li>
+                <li>지문 원문이 바뀌지 않았는지 검사하면서 핵심어 색상 표시와 끊어읽기 자동 적용</li>
+                <li>교사가 문항마다 승인, 수정, 재생성한 뒤 Word 파일로 내보내는 기능 구현</li>
+              </ul>
+            </div>
+
+            <div class="project__split">
+              <div>
+                <h4>Problem</h4>
+                <ul>
+                  <li>10명 이상이 각자 초안을 만들고 팀장, 총괄자, 원장이 차례로 검토하는 다단계 업무</li>
+                  <li>비슷한 문제가 반복해서 만들어지고 취합과 편집에 많은 시간이 듦</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Solution</h4>
+                <ul>
+                  <li>문제 생성부터 중복 제거, 선별, 편집, 교사 검수, Word 출력까지 하나의 시스템으로 연결</li>
+                  <li>최종 판단은 교사가 내리도록 승인, 수정, 재생성 단계를 둠</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project__impact">
+              <h4>Impact</h4>
+              <ul>
+                <li>사람이 초안을 직접 쓰던 방식에서 AI가 만든 문제를 교사가 검토하고 고르는 방식으로 전환</li>
+                <li>학원 요구사항 정리부터 서비스 구현까지 혼자 개발</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__hero">
+              <p class="project__lead">유전자 발현 데이터에서 예후 관련 특성을 찾고 외부 데이터로 검증한 분석 프로젝트</p>
+              <h3 class="project__name">
+                다발성 골수종 예후 예측 데이터 분석
+                <span class="project__ctx">Bio-AI Data Analysis</span>
+              </h3>
+            </div>
+
+            <dl class="project__meta">
+              <div><dt>기간</dt><dd>2025.11 (데이터 분석 프로젝트)</dd></div>
+              <div><dt>데이터</dt><dd>GSE24080, GSE19784</dd></div>
+              <div><dt>역할</dt><dd>유전체 데이터 전처리, 특징 선별 및 예후 예측 모델링</dd></div>
+              <div class="full"><dt>기술</dt><dd>Python, XGBoost, Random Forest, Logistic Regression, ANOVA, RFE, SHAP, NCBI GEO</dd></div>
+            </dl>
+
+            <div class="project__implementation">
+              <h4>주요 구현</h4>
+              <ul>
+                <li>NCBI GEO의 GSE24080에서 환자 559명의 약 23,500개 유전자 발현 정보와 생존 정보 정제</li>
+                <li>ANOVA, RFE(Recursive Feature Elimination), 모델 중요도를 활용해 고차원 유전자 특성 선별</li>
+                <li>Logistic Regression, Random Forest, XGBoost를 AUC, MCC, F1 등으로 비교해 최종 모델 선정</li>
+                <li>SHAP으로 모델 예측에 크게 기여한 유전자 확인</li>
+                <li>Risk score로 환자를 위험도별로 나누고 독립 데이터셋 GSE19784에서 외부 검증</li>
+                <li>바이오 산업 실무자, 박사급 전문가에게 분석 과정과 생물학적 해석을 검토받음</li>
+              </ul>
+            </div>
+
+            <div class="project__split">
+              <div>
+                <h4>Problem</h4>
+                <ul>
+                  <li>ISS, R-ISS 같은 기존 병기 체계만으로는 고위험 환자를 초기에 가려내기 어려움</li>
+                  <li>환자 수에 비해 유전자 특성이 약 23,500개로 매우 많아 생존과 관련된 특성을 골라내야 함</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Solution</h4>
+                <ul>
+                  <li>ANOVA, RFE, 모델 중요도를 차례로 적용해 분석에 쓸 유전자 수를 줄임</li>
+                  <li>세 모델을 여러 지표로 비교한 뒤 SHAP과 risk score로 결과를 해석하고 GSE19784로 외부 검증</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project__impact">
+              <h4>Impact</h4>
+              <ul>
+                <li>단계적 특성 선별과 SHAP 분석으로 예후 biomarker 후보 10개 도출</li>
+                <li>Risk score를 10개 구간으로 나눴을 때 점수가 높을수록 사망률도 높게 나타남 (Spearman ρ=0.888, p&lt;0.001)</li>
+                <li>GSE24080으로 학습한 모델을 별도 데이터셋 GSE19784에 적용해 외부 검증</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__hero">
+              <p class="project__lead">고령층 음성을 인식하고 대화를 기록하는 STT와 NLP 프로젝트</p>
+              <h3 class="project__name">
+                또박톡
+                <span class="project__ctx">미래융합 인재 발굴 SW 챌린지 출품작</span>
+              </h3>
+            </div>
+
+            <dl class="project__meta">
+              <div><dt>기간</dt><dd>2025.08.30 — 2025.10.02 (약 1개월)</dd></div>
+              <div><dt>팀</dt><dd>4인</dd></div>
+              <div><dt>역할</dt><dd>고령층 음성 인식 모델 파인튜닝 및 쉬운말 변환 파이프라인 개발</dd></div>
+              <div class="full"><dt>기술</dt><dd>Python, Whisper Small, Hugging Face Transformers, PyTorch, faster-whisper, Resemblyzer, Librosa, Ollama</dd></div>
+            </dl>
+
+            <div class="project__implementation">
+              <h4>주요 구현</h4>
+              <ul>
+                <li>AI-Hub의 60세 이상 고령층 자유대화 음성과 라벨을 전처리하고, Whisper 입력에 맞춰 16,000Hz 오디오와 token ID로 변환</li>
+                <li>Seq2SeqTrainer로 Whisper Small을 파인튜닝하고 FP16 혼합정밀도 적용</li>
+                <li>국립국어원 <code>쉽고 바른 공공언어 쓰기</code> 용어 데이터로 어려운 표현을 쉬운 말로 바꾸는 기능 구현</li>
+                <li>의료 용어와 반복되는 ASR 오인식을 보정하기 위해 사용자 정의 치환 규칙과 정규식 후처리 구현</li>
+              </ul>
+            </div>
+
+            <div class="project__impact">
+              <h4>결과</h4>
+              <ul>
+                <li>파인튜닝한 Whisper Small 모델이 검증 데이터에서 WER 21.2% 기록</li>
+                <li>음성 입력에서 STT, 화자 분리, 쉬운말 변환, 대화 요약으로 이어지는 프로토타입 구현</li>
+              </ul>
+              <a class="project__link" href="https://ttobaktalk-min03027-min03027s-projects.vercel.app/?_vercel_share=qCLIPAzmBK4frjS9dw0ltAp9IVDS45GJ" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__hero">
+              <p class="project__lead">재무 특성을 분류해 개인별 금융상품을 추천하는 시니어 금융 서비스</p>
+              <h3 class="project__name">
+                노후愛
+                <span class="project__ctx">KB AI CHALLENGE</span>
+              </h3>
+            </div>
+
+            <dl class="project__meta">
+              <div><dt>기간</dt><dd>2025.07.17 — 2025.08.14 (약 1개월)</dd></div>
+              <div><dt>팀</dt><dd>3인</dd></div>
+              <div><dt>역할</dt><dd>금융 데이터 파이프라인 및 개인화 추천 시스템 개발</dd></div>
+              <div class="full"><dt>기술</dt><dd>Python, Pandas, NumPy, TabNet, FAISS, Streamlit, Figma</dd></div>
+            </dl>
+
+            <div class="project__implementation">
+              <h4>주요 구현</h4>
+              <ul>
+                <li>KOSIS, 국민연금, 금융감독원의 공공 금융 및 통계 데이터를 찾아 수집하고 분석 목적에 맞게 정제</li>
+                <li>개인 단위 시니어 금융 데이터를 구하기 어려워 공공 통계를 참고해 9개 금융 특성으로 15,000건의 합성 데이터 구축</li>
+                <li>자산, 연금, 지출, 소득, 투자성향을 바탕으로 재무 페르소나 분류 규칙을 정하고 TabNet 모델 학습</li>
+                <li>국민연금 데이터로 연금 유형과 예상 수령액을 계산하는 처리 로직 작성</li>
+                <li>조건에 맞지 않는 상품을 규칙으로 먼저 거르고, FAISS <code>IndexFlatL2</code> 유사도 검색으로 개인별 금융상품 Top 3 추천</li>
+                <li>TabNet 모델과 LabelEncoder를 직렬화해 Streamlit에 연결하고 금융 유형과 클래스별 확률 시각화</li>
+                <li>Figma로 설문 입력, 금융 유형 결과, 연금 계산, 상품 추천 화면 설계에 참여</li>
+              </ul>
+            </div>
+
+            <div class="project__impact">
+              <h4>결과</h4>
+              <ul>
+                <li>실제 개인 금융 데이터를 구할 수 없어 공공 통계를 참고한 합성 데이터 15,000건으로 TabNet 학습</li>
+                <li>설문 입력부터 페르소나 분류, 연금 계산, 금융상품 Top 3 추천까지 한 화면 흐름으로 구현</li>
+              </ul>
+              <a class="project__link" href="https://github.com/danchu000/kbAIchallange" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__hero">
+              <p class="project__lead">관절 좌표로 운동 자세를 분류하는 AI 피드백 시스템</p>
+              <h3 class="project__name">
+                FITBUDDY
+                <span class="project__ctx">성신여자대학교 2025 AI융합학부 IT경진대회</span>
+              </h3>
+            </div>
+
+            <dl class="project__meta">
+              <div><dt>기간</dt><dd>2025.07.02 — 2025.08.13 (약 1개월)</dd></div>
+              <div><dt>팀</dt><dd>4인</dd></div>
+              <div><dt>역할</dt><dd>운동 자세 분류 모델 및 학습 데이터 파이프라인 개발</dd></div>
+              <div class="full"><dt>기술</dt><dd>Python, MediaPipe Pose, Random Forest, Flask, OpenAI API, JavaScript, Figma</dd></div>
+            </dl>
+
+            <div class="project__implementation">
+              <h4>주요 구현</h4>
+              <ul>
+                <li>AI-Hub의 수 GB 규모 피트니스 데이터에서 이미지, JSON annotation, 촬영 각도를 맞춰 학습 데이터셋으로 재구성</li>
+                <li>운동별 관절 각도와 위치를 조사해 올바른 자세와 잘못된 자세의 판별 기준 설계</li>
+                <li>MediaPipe Pose 관절 좌표 기반 Random Forest 자세 분류 모델 학습</li>
+                <li>학습한 모델을 Pickle(<code>.pkl</code>) 파일로 저장해 프론트엔드에서 추론에 쓸 수 있도록 전달</li>
+                <li>Figma로 운동 선택 및 자세 피드백 화면 설계에 참여</li>
+              </ul>
+            </div>
+
+            <div class="project__impact">
+              <h4>결과</h4>
+              <ul>
+                <li>운동 자세 촬영부터 자세 평가까지 연결되는 피드백 프로토타입 구현</li>
+                <li>학습한 모델을 .pkl 파일로 저장해 프론트엔드에 전달</li>
+                <li>성신여자대학교 2025 AI융합학부 IT경진대회 우수상 수상</li>
+              </ul>
+              <a class="project__link" href="https://github.com/everyoungg/FitBuddy/tree/main_final" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="awards" class="section grid-section" aria-labelledby="awards-title">
+        <h2 id="awards-title">Awards</h2>
+        <div class="simple-list">
+          <article>
+            <div class="row-head">
+              <h3>코리아 IT 아카데미 머신러닝/딥러닝 프로젝트 공모전 <span class="award-badge">우수상</span></h3>
+              <time>2025.09.12</time>
+            </div>
+            <p>머신러닝, 딥러닝 프로젝트로 우수상 수상.</p>
+          </article>
+          <article>
+            <div class="row-head">
+              <h3>성신여자대학교 2025 AI융합학부 IT경진대회 <span class="award-badge">우수상</span></h3>
+              <time>2025.08.29</time>
+            </div>
+            <p>FITBUDDY 프로젝트로 수상.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="vision" class="section" aria-labelledby="vision-title">
+        <h2 id="vision-title">Core Strengths</h2>
+        <div class="vision">
+          <div class="vision__step">
+            <p class="vision__when">DATA</p>
+            <h3>형태가 다른 데이터를 직접 정리합니다</h3>
+            <p>약 23,500개 유전자 발현 데이터, 고령층 음성, 금융 통계, 피트니스 이미지와 JSON을 다뤘습니다. 각 데이터의 구조를 확인하고 모델 학습에 맞게 정리했습니다.</p>
+          </div>
+          <div class="vision__step">
+            <p class="vision__when">MODEL</p>
+            <h3>모델은 여러 개를 비교해서 고릅니다</h3>
+            <p>문제에 따라 여러 모델을 비교했습니다. 음성 인식에는 WER를, 예후 예측에는 AUC, MCC, F1을 확인하고 SHAP으로 주요 특성을 살펴봤습니다.</p>
+          </div>
+          <div class="vision__step">
+            <p class="vision__when">SERVICE</p>
+            <h3>데이터와 모델을 서비스로 연결합니다</h3>
+            <p>LXP에서는 Java와 Spring Boot로 학습 데이터를 모아 주는 API를 만들었습니다. 금융 유형 분류 모델은 Streamlit 화면에 연결했고, 운동 자세 모델은 파일로 저장해 프론트엔드에 넘겼습니다.</p>
+          </div>
+          <div class="vision__step vision__step--goal">
+            <p class="vision__when">DOMAIN</p>
+            <h3>문제에 맞는 데이터를 먼저 확인합니다</h3>
+            <p>같은 AI 문제라도 금융, 바이오, 음성, 교육 분야마다 필요한 데이터와 판단 기준이 달랐습니다. 그래서 모델을 먼저 고르기보다 도메인에 따라 문제 정의와 쓸 데이터를 먼저 정리했습니다. 바이오 분석에서는 실무자와 전문가의 의견을 받아 결과를 검토했습니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <div class="contact-section__grid">
+          <div>
+            <p class="contact-section__title">읽어주셔서 감사합니다.</p>
+            <p class="contact-section__sub">
+              데이터가 어디서 왔고 어떻게 쓰일지 확인하며, 분석과 모델 결과가 실제 기능에 이어지도록 개발하고 있습니다.
+            </p>
+            <div class="contact contact--big">
+              <a href="https://github.com/danchu000" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <div class="contact-section__photo">
+            <img src="./profile.jpg" alt="여지혜 프로필 사진" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
