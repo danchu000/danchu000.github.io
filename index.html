@@ -295,9 +295,9 @@
             <div class="project__impact">
               <h4>Impact</h4>
               <ul>
-                <li>단계적 특성 선별과 SHAP 분석으로 예후 biomarker 후보 10개 도출</li>
-                <li>Risk score를 10개 구간으로 나눴을 때 점수가 높을수록 사망률도 높게 나타남 (Spearman ρ=0.888, p&lt;0.001)</li>
-                <li>GSE24080으로 학습한 모델을 별도 데이터셋 GSE19784에 적용해 외부 검증</li>
+                <li>여러 단계로 후보를 좁히고 어떤 유전자가 예측에 많이 쓰였는지 확인해, 생존 기간과 관련이 큰 유전자 10개를 예후 표지 후보로 추렸습니다</li>
+                <li>환자를 위험 점수 순으로 10개 구간에 나눠 보니 점수가 높은 구간일수록 사망률도 높았습니다 (Spearman ρ=0.888, p&lt;0.001)</li>
+                <li>학습에 쓰지 않은 다른 연구의 환자 데이터(GSE19784)에도 같은 경향이 나타나는지 확인했습니다</li>
               </ul>
             </div>
           </article>
@@ -331,7 +331,7 @@
             <div class="project__impact">
               <h4>결과</h4>
               <ul>
-                <li>파인튜닝한 Whisper Small 모델이 검증 데이터에서 WER 21.2% 기록</li>
+                <li>고령층 음성으로 추가 학습한 모델이 검증 데이터에서 100단어 중 약 79단어를 정확히 받아썼습니다 (오류율 21.2%)</li>
                 <li>음성 입력에서 STT, 화자 분리, 쉬운말 변환, 대화 요약으로 이어지는 프로토타입 구현</li>
               </ul>
               <a class="project__link" href="https://ttobaktalk-min03027-min03027s-projects.vercel.app/?_vercel_share=qCLIPAzmBK4frjS9dw0ltAp9IVDS45GJ" target="_blank" rel="noreferrer">Demo</a>
@@ -370,7 +370,7 @@
             <div class="project__impact">
               <h4>결과</h4>
               <ul>
-                <li>실제 개인 금융 데이터를 구할 수 없어 공공 통계를 참고한 합성 데이터 15,000건으로 TabNet 학습</li>
+                <li>개인 금융 데이터는 구할 수 없어, 공공 통계를 참고해 만든 가상 데이터 15,000건으로 재무 유형 분류 모델을 학습했습니다</li>
                 <li>설문 입력부터 페르소나 분류, 연금 계산, 금융상품 Top 3 추천까지 한 화면 흐름으로 구현</li>
               </ul>
               <a class="project__link" href="https://github.com/danchu000/kbAIchallange" target="_blank" rel="noreferrer">GitHub</a>
@@ -408,7 +408,7 @@
               <h4>결과</h4>
               <ul>
                 <li>운동 자세 촬영부터 자세 평가까지 연결되는 피드백 프로토타입 구현</li>
-                <li>학습한 모델을 .pkl 파일로 저장해 프론트엔드에 전달</li>
+                <li>학습한 모델을 파일로 저장해, 화면에서 바로 불러다 쓸 수 있게 전달했습니다</li>
                 <li>성신여자대학교 2025 AI융합학부 IT경진대회 우수상 수상</li>
               </ul>
               <a class="project__link" href="https://github.com/everyoungg/FitBuddy/tree/main_final" target="_blank" rel="noreferrer">GitHub</a>
